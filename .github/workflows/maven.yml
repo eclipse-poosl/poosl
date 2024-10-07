@@ -36,7 +36,7 @@ jobs:
       
       - name: RCPTT Logs 📝
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: rcptt_logs
           path: tests/rcptt/*/target/results/aut-console-*.log
@@ -44,7 +44,7 @@ jobs:
     
       - name: RCPTT Results 🧪
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: rcptt_results
           # They must be open in eclipse
