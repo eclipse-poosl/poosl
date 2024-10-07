@@ -51,7 +51,7 @@
       <import plugin="org.eclipse.core.filesystem"/>
       <import plugin="org.eclipse.poosl.xtext.ide" version="0.1.0" match="greaterOrEqual"/>
       <import plugin="org.apache.log4j"/>
-      <import plugin="jakarta.xml.bind-api" version="2.3.2" match="greaterOrEqual"/>
+      <import plugin="jakarta.xml.bind-api" version="2.3.2" match="compatible"/>
       <import plugin="org.eclipse.persistence.moxy" version="2.7.7" match="greaterOrEqual"/>
       <import plugin="org.eclipse.xtext.util"/>
       <import plugin="org.eclipse.emf.common"/>
