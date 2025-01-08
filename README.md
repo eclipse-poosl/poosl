@@ -1,4 +1,4 @@
-[![gh-actions status](https://github.com/eclipse/poosl/workflows/Java%20CI/badge.svg)](https://github.com/eclipse/poosl/actions/workflows/maven.yml)
+[![gh-actions status](https://github.com/eclipse-poosl/poosl/workflows/Java%20CI/badge.svg)](https://github.com/eclipse-poosl/poosl/actions/workflows/maven.yml)
 
 
 
@@ -7,7 +7,7 @@
 ## How to get the product
 
 Update site and help are accessible on <a 
-href="https://eclipse.github.io/poosl" >gh-pages site</a>.
+href="https://eclipse-poosl.github.io/poosl" >gh-pages site</a>.
 
 Products are available in github release. __TBD__
 
