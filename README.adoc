@@ -1,5 +1,5 @@
-[link=https://github.com/eclipse/poosl/actions/workflows/maven.yml]
-image::https://github.com/eclipse/poosl/workflows/Java%20CI/badge.svg[gh-actions status]
+[link=https://github.com/eclipse-poosl/poosl/actions/workflows/maven.yml]
+image::https://github.com/eclipse-poosl/poosl/workflows/Java%20CI/badge.svg[gh-actions status]
 
 = Brief introduction to the POOSL project
 
@@ -11,13 +11,13 @@ simulated with the Rotalumis simulator.
 This project provides an Eclipse-based tool for editing and debugging POOSL models.
 
 == How to install
-https://raw.githubusercontent.com/eclipse/poosl/main/docs/User/InstallationManual.pdf[Installation guide] 
+https://raw.githubusercontent.com/eclipse-poosl/poosl/main/docs/User/InstallationManual.pdf[Installation guide] 
 helps you to install Eclipse and POOSL features.
 
 
 == How to download Eclipse Features
 
-Update site and help are accessible on https://eclipse.github.io/poosl[gh-pages site].
+Update site and help are accessible on https://eclipse-poosl.github.io/poosl[gh-pages site].
 
 
 == How to build
@@ -51,7 +51,7 @@ Product are available at __${POOSL_SRC}/releng/org.eclipse.poosl.product/target/
 
 == Developing
 
-Development guidelines are described at https://github.com/eclipse/poosl/tree/main/docs/Developer[org.eclipse.poosl.docs/Developer/readme.adoc]
+Development guidelines are described at https://github.com/eclipse-poosl/poosl/tree/main/docs/Developer[org.eclipse.poosl.docs/Developer/readme.adoc]
 
 === Development environment
 
@@ -63,7 +63,7 @@ Development guidelines are described at https://github.com/eclipse/poosl/tree/ma
 
 [source]
 ----
-https://raw.githubusercontent.com/eclipse/poosl/main/parent/oomph/org.eclipse.setup
+https://raw.githubusercontent.com/eclipse-poosl/poosl/main/parent/oomph/org.eclipse.setup
 ----
 
 [start=4]
@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/eclipse/poosl/main/parent/oomph/org.eclipse.se
 
 ===== Import POOSL source code
 
-. Clone https://github.com/eclipse/poosl.git
+. Clone https://github.com/eclipse-poosl/poosl.git
 . Import the repository in eclipse
 . Unfold the repository and under "Working Tree", select the following projects:
 * _docs_
@@ -100,7 +100,7 @@ Commit must start with '[#<issue-number>] ' tag.
 
 - Wait for team review: a feedback will be provided or the commit will be merged.
 
-- Contributions like libraries, examples are welcomed. Some already appear in https://github.com/eclipse/poosl/tree/main/docs/samples[the samples/ folder].
+- Contributions like libraries, examples are welcomed. Some already appear in https://github.com/eclipse-poosl/poosl/tree/main/docs/samples[the samples/ folder].
 
 
 == Automatic Tests via RCPTT
